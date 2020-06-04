@@ -38,7 +38,8 @@ jobs:
           git config --global user.name "Akihiro Urushihara"
           mkdir workspace
           cd workspace
-          git clone https://${GH_TOKEN}@github.com/uakihir0/portfolio
+          git clone https://${GH_TOKEN}@github.com/uakihir0/uakihir0.github.io
           rsync -av ../public ./ --exclude '/.git/' --exclude '.DS_Store' --exclude '/socialhub/'
+          git add --all
           git commit -m "by GitHub Action CI (SHA ${GITHUB_SHA})"
           git push origin master
