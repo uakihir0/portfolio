@@ -36,9 +36,12 @@ jobs:
         run: |
           git config --global user.email "a.urusihara@gmail.com"
           git config --global user.name "Akihiro Urushihara"
-          rsync -av public/ workspace/ --exclude '/.git/' --exclude '.DS_Store' --exclude '/socialhub/'
+          mkdir workspace
           cd workspace
-          git clone https://${GH_TOKEN}@github.com/uakihir0/uakihir0.github.io
+          git init
+          git remote add origin https://${GH_TOKEN}@github.com/uakihir0/uakihir0.github.io
+          git pull origin master
+          rsync -av ../public/ ../workspace/ --exclude '/.git/' --exclude '.DS_Store' --exclude '/socialhub/'
           git add --all
           git commit -m "by GitHub Action CI (SHA ${GITHUB_SHA})"
-          git push
+          git push origin
