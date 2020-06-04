@@ -36,7 +36,8 @@ jobs:
         run: |
           git config --global user.email "a.urusihara@gmail.com"
           git config --global user.name "Akihiro Urushihara"
-          mkdir workspace & cd workspace
+          mkdir workspace
+          cd workspace
           git clone https://${GH_TOKEN}@github.com/uakihir0/portfolio
           rsync -av ../public ./ --exclude '/.git/' --exclude '.DS_Store' --exclude '/socialhub/'
           git commit -m "by GitHub Action CI (SHA ${GITHUB_SHA})"
