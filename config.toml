@@ -1,0 +1,61 @@
+baseURL        = "https://uakihir0.github.io/"
+languageCode   = "ja"
+title          = "Akihiro Urushihara"
+theme          = "introduction"
+
+[markup.goldmark.renderer]
+    unsafe = true
+
+[params]
+    themeStyle                   = "light"
+    favicon                      = "/img/fav.ico"
+    showRSSButton                = false
+    fadeIn                       = true
+    fadeInIndex                  = false
+    dateFormat                   = "Jan 2, 2006"
+    email                        = "a.urusihara@gmail.com"
+    customCSS                    = ["my.css"]
+
+    [params.home]
+        introHeight              = "fullheight"
+        showLatest               = true
+        showAllPosts             = false
+        numberOfProjectsToShow   = 3
+
+        localTime                = true
+        timeZone                 = "Asia/Tokyo" 
+        timeFormat               = "h:mm A"
+
+    [params.projects]
+        useTwoColumns            = false
+
+    [params.share]
+        twitter                  = true
+        facebook                 = true
+        googlePlus               = true
+        pinterest                = true
+
+    [[params.social]]
+        url   = "https://twitter.com/uakihir0"
+        icon  = "twitter"
+        icon_pack = "fab"
+    [[params.social]]
+        url   = "https://www.facebook.com/uakihir0"
+        icon  = "facebook-f"
+        icon_pack = "fab"
+    [[params.social]]
+        url   = "https://jp.linkedin.com/in/akihiro-urushihara-7116a018b/"
+        icon  = "linkedin-in"
+        icon_pack = "fab"
+    [[params.social]]
+        url   = "https://mastodon.social/"
+        icon  = "mastodon"
+        icon_pack = "fab"
+    [[params.social]]
+        url   = "https://github.com/uakihir0"
+        icon  = "github"
+        icon_pack = "fab"
+    [[params.social]]
+        url = "mailto:a.urusihara@gmail.com"
+        icon = "paper-plane"
+        icon_pack = "fas"
