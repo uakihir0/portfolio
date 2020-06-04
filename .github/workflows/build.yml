@@ -44,4 +44,4 @@ jobs:
           rsync -av ../public/ ../workspace/ --exclude '/.git/' --exclude '.DS_Store' --exclude '/socialhub/'
           git add --all
           git commit -m "by GitHub Action CI (SHA ${GITHUB_SHA})"
-          git push origin
+          git push origin master
