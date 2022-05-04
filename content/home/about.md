@@ -5,7 +5,7 @@ weight: 8
 ---
 
 iOS (Swift/Objective-C) Engineer.  
-ServerSide (Kotlin/Java w/ SpringBoot) Engineer.  
+ServerSide (Kotlin/Java w/ SpringBoot, Go) Engineer.  
 And more...
 
 #### Education :
@@ -18,3 +18,5 @@ And more...
   * Long Term Internship, iOS Engineer.
 * 2014/4-current **[Nintendo Co., Ltd.](https://www.nintendo.co.jp/)** 
   * ServerSide Application Engineer.
+* 2021/9-current **[coco, inc.](https://thecoco.jp/)**
+  * ServerSide Application Engineer. (outsourcing contract)

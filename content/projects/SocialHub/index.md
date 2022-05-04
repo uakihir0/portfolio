@@ -12,4 +12,4 @@ SocialHub 2020/2 に公開した Twitter, Mastodon, Slack, Tumblr, Misskey に�
 
 ##### 紹介記事
 
-* **2020/3** [Twitterアプリのおすすめ人気ランキング10選 - mybest](https://my-best.com/1960)
+* **2020/2** [SocialHub - マルチ SNS クライアント - [iPhone]](https://applion.jp/iphone/app/1474451582/)
