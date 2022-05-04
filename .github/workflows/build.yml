@@ -39,7 +39,7 @@ jobs:
           mkdir workspace
           cd workspace
           git init
-          git remote add origin https://uakihir0:${GH_TOKEN}@github.com/uakihir0/uakihir0.github.io
+          git remote add origin https://github-actions:${GH_TOKEN}@github.com/uakihir0/uakihir0.github.io
           git pull origin master
           rsync -av ../public/ ../workspace/ --exclude '/.git/' --exclude '.DS_Store' --exclude '/socialhub/'
           git add --all
