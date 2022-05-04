@@ -19,4 +19,4 @@ And more...
 * 2014/4-current **[Nintendo Co., Ltd.](https://www.nintendo.co.jp/)** 
   * ServerSide Application Engineer.
 * 2021/9-current **[coco, inc.](https://thecoco.jp/)**
-  * ServerSide Application Engineer. (outsourcing contract)
+  * Engineer (Outsourcing Contract).
