@@ -11,7 +11,5 @@ resources:
 
 ##### 使用技術
 
-- クライアント
-  - `TypeScript`, `Vue.js`, `Vuetify`, `Firebase Hosting`
-- サーバーサイド
-  - `Kotlin`, `SpringBoot`, `Google App Engine`, `Google Compute Engine`
+- クライアント: TypeScript, Vue.js, Vuetify, Firebase Hosting
+- サーバーサイド: Kotlin, SpringBoot, Google App Engine, Google Compute Engine

@@ -13,10 +13,8 @@ SocialHub 2020/2 に公開した Twitter, Mastodon, Slack, Tumblr, Misskey に�
 
 ##### 使用技術
 
-- クライアント
-  - `Java`, `Swift`, `J2ObjC`
-- サーバーサイド (一部機能提供のために使用)
-  - `Kotlin`, `SpringBoot`, `Google App Engine`, `Google Compute Engine`
+- クライアント: Java, Swift, J2ObjC
+- サーバーサイド: Kotlin, SpringBoot, Google App Engine, Google Compute Engine
 
 ##### 紹介記事
 

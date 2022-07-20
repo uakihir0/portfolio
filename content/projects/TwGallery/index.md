@@ -11,7 +11,5 @@ resources:
 
 ##### 使用技術
 
-- クライアント
-  - `TypeScript`, `React.js`, `Next.js`, `Chakra-UI`, `Vercel`
-- データ生成部
-  - `Kotlin`, `GitHub Actions`, `TensorFlow`
+- クライアント: TypeScript, React.js, Next.js, Chakra-UI, Vercel
+- データ生成部: Kotlin, GitHub Actions, TensorFlow

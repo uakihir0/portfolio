@@ -11,7 +11,5 @@ resources:
 
 ##### 使用技術
 
-- クライアント
-  - `TypeScript`, `React.js`, `Next.js`, `Chakra-UI`, `Vercel`
-- サーバーサイド
-  - `Kotlin`, `SpringBoot`, `Google App Engine`, `Google Compute Engine`
+- クライアント: TypeScript, React.js, Next.js, Chakra-UI, Vercel
+- サーバーサイド: Kotlin, SpringBoot, Google App Engine, Google Compute Engine
