@@ -54,7 +54,7 @@ theme          = "introduction"
     [[params.social]]
         url   = "https://uakihir0.github.io/blog/"
         icon  = "sticky-note"
-        icon_pack = "fab"
+        icon_pack = "fas"
     [[params.social]]
         url = "mailto:a.urusihara@gmail.com"
         icon = "paper-plane"
