@@ -48,12 +48,12 @@ theme          = "introduction"
         icon  = "linkedin-in"
         icon_pack = "fab"
     [[params.social]]
-        url   = "https://mastodon.social/"
-        icon  = "mastodon"
-        icon_pack = "fab"
-    [[params.social]]
         url   = "https://github.com/uakihir0"
         icon  = "github"
+        icon_pack = "fab"
+    [[params.social]]
+        url   = "https://uakihir0.github.io/blog/"
+        icon  = "blog"
         icon_pack = "fab"
     [[params.social]]
         url = "mailto:a.urusihara@gmail.com"
