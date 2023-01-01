@@ -53,7 +53,7 @@ theme          = "introduction"
         icon_pack = "fab"
     [[params.social]]
         url   = "https://uakihir0.github.io/blog/"
-        icon  = "blog"
+        icon  = "sticky-note"
         icon_pack = "fab"
     [[params.social]]
         url = "mailto:a.urusihara@gmail.com"
