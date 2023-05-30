@@ -52,7 +52,7 @@ theme          = "introduction"
         icon  = "github"
         icon_pack = "fab"
     [[params.social]]
-        url   = "https://uakihir0.github.io/blog/"
+        url   = "https://www.uakihir0.com/blog/"
         icon  = "sticky-note"
         icon_pack = "fas"
     [[params.social]]
